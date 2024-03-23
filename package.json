@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "project_initialize": "npm run client_install && server_install",
+    "project_init": "npm run client_install && server_install",
     "client_install": "cd Client && npm i",
     "client_start": "cd Client && npm start",
     "server_install": "cd Server && bash init_dotnet8.bash",

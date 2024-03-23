@@ -9,11 +9,10 @@
 > | Node    | ^v21.6.2
 > | Npm     | ^10.4.0
 
-
 <!-- Project Folder Cli -->
 | Project Cli                   | Description      
 | ------------------------------|:-------------------------------------------------
-| npm run project_initialize    | initializes project Client and Server
+| npm run project_init          | initializes project Client and Server
 | npm run client_install        | install client dependencies      
 | npm run client_start          | client start 
 | npm run server_install        | installs dotnet 8 Api Clean Architecture
@@ -24,4 +23,6 @@
 
 ## software requirements
 * Vscode
+    * Extensions
+        * https://marketplace.visualstudio.com/items?itemName=saber2pr.todolist
 * Git
