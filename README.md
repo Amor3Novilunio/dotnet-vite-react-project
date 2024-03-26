@@ -12,17 +12,21 @@
 <!-- Project Folder Cli -->
 | Project Cli                   | Description      
 | ------------------------------|:-------------------------------------------------
-| npm run project_init          | initializes project Client and Server
-| npm run client_install        | install client dependencies      
-| npm run client_start          | client start 
-| npm run server_install        | installs dotnet 8 Api Clean Architecture
-| npm run server_start            | server start
-| npm run server_watch          | server start with hot reload 
-| npm run server_start_dev        | server start in development mode 
-| npm run server_watch_dev      | server start with hot reload in development mode
+| npm run install_project       | initializes project Client and Server
+| npm run install_client        | install client dependencies      
+| npm run start                 | client start 
+| npm run install_server        | installs dotnet 8 Api Clean Architecture
+| npm run start_server          | server start
+| npm run start_server_watch    | server start with hot reload 
+| npm run start_server_dev      | server start in development mode 
+| npm run start_server_dev_watch| server start with hot reload in development mode
 
 ## software requirements
 * Vscode
     * Extensions
-        * https://marketplace.visualstudio.com/items?itemName=saber2pr.todolist
+        * Todo List | @saber2pr
+        * C#
+        * C# Dev Kit
+        * .Net Install Tool
+        * NuGet Gallery
 * Git
