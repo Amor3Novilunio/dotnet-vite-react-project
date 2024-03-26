@@ -3,14 +3,17 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "project_init": "npm run client_install && server_install",
-    "client_install": "cd Client && npm i",
-    "client_start": "cd Client && npm start",
-    "server_install": "cd Server && bash init_dotnet8.bash",
-    "server_run": "cd Server && dotnet run --project api",
-    "server_watch": "cd Server && dotnet run watch  --project api",
-    "server_run_dev": "cd Server && dotnet run environment=development --project api",
-    "server_watch_dev": "cd Server && dotnet run watch environment=development --project api"
+    "install_project": "npm run install_client && install_server",
+    "install_client": "cd Client && npm i && cd Generator && npm i",
+    "install_server": "cd Server/scripts && bash init_dotnet8.bash",
+
+    "start": "cd Client && npm start",
+
+    "start_server": "cd Server && dotnet run --project api",
+    "start_server_watch": "cd Server && dotnet run watch  --project api",
+
+    "start_server_dev": "cd Server && dotnet run environment=development --project api",
+    "start_server_dev_watch": "cd Server && dotnet run watch environment=development --project api"
   },
   "author": "Amor III Novilunio"
 }

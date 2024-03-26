@@ -16,9 +16,9 @@
 | npm run client_install        | install client dependencies      
 | npm run client_start          | client start 
 | npm run server_install        | installs dotnet 8 Api Clean Architecture
-| npm run server_run            | server start
+| npm run server_start            | server start
 | npm run server_watch          | server start with hot reload 
-| npm run server_run_dev        | server start in development mode 
+| npm run server_start_dev        | server start in development mode 
 | npm run server_watch_dev      | server start with hot reload in development mode
 
 ## software requirements

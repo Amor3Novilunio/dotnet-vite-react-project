@@ -35,6 +35,28 @@
           "done": false,
           "start": 1711222261097
         }
+      },
+      {
+        "key": 1711450173477,
+        "children": [],
+        "todo": {
+          "content": "add generator code to client",
+          "id": 1711450173477,
+          "level": "default",
+          "done": false,
+          "start": 1711450173477
+        }
+      },
+      {
+        "key": 1711450190088,
+        "children": [],
+        "todo": {
+          "content": "tailwind ???",
+          "id": 1711450190088,
+          "level": "default",
+          "done": false,
+          "start": 1711450190088
+        }
       }
     ],
     "expandKeys": [
@@ -53,6 +75,6 @@
     "showEndTime": false,
     "simpleMode": false,
     "lang": "en",
-    "version": "1711222387639"
+    "version": "1711450199973"
   }
 }

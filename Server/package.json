@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "update_db": "dotnet ef database update -s api -p persistence",
+    "add_migration": "cd scripts && bash add_migrations.bash",
+    "remove_migration": "dotnet ef migrations remove -s api -p persistence",
+    "restore": "dotnet restore"
+  },
+  "author": "Amor III Novilunio"
+}
